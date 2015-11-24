@@ -1,0 +1,90 @@
+.banner{
+    background: url("../images/company/ent_banner.png") no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.banner-inner{
+    text-align: center;
+}
+.banner-inner a{
+    background: url("../images/company/ent_banner_btn.png");
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    margin-bottom: 330px;
+}
+.banner-title{
+    padding: 110px 0 50px 0;
+    font-size: 34px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.company-font{
+    line-height: 22px;
+    color: #686868;
+    padding: 5px;
+}
+.company-img{
+    /*margin-left: 100px;*/
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color:#686868 ;
+}
+.company-h3{
+    margin:50px 0 20px 100px;
+    color:#686868 ;
+}
+.list{
+    width: 1000px;
+    height: 420px;
+    border: 1px solid #b7f6ff;
+    border-radius: 3px;
+}
+.list ul li img{
+    width: 110px;
+    height: auto;
+    padding: 5px;
+}
+.list ul li{
+    list-style: none;
+    float: left;
+    width: 199px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+.tail-banner{
+    text-align: center;
+    width: 1000px;
+    height: 250px;
+    background: url("../images/company/ent_consult_bg.png") no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.tail-banner h3{
+    padding: 55px 0 40px 0;
+    color: #6ab8f3;
+    letter-spacing: 2px;
+}
+.tail-banner a{
+    background-color: #f8a041;
+    border-radius: 6px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+}
+.tail-banner-font{
+    font-size: 30px;
+}

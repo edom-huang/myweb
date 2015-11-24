@@ -1,0 +1,37 @@
+body{
+    padding-top: 50px;
+    /*导航栏高度是50px；*/
+}
+.navbar-inverse input[type='text']{
+    background-color: #313131;
+    border: none;
+    color: #999;
+}
+.navbar-inverse .navbar-form{
+    position: relative;
+}
+.navbar-inverse button[type='submit']{
+    position: absolute;
+    top: 25%;
+    right: 20px;
+    background: none;
+    border: none;
+}
+@media (min-width: 768px) {
+    .navbar-inverse button[type='submit']{
+        top:15%;
+    }
+}
+.navbar-inverse .glyphicon{
+    color: #999;
+}
+.profile{
+    margin-right: 25px;
+}
+.carousel-img{
+    width: 100%;
+    max-height: 600px !important;
+}
+.alert{
+    margin-bottom: 0px;
+}

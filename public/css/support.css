@@ -1,0 +1,30 @@
+.support-img{
+    background-color: #37588B;
+    text-align: center;
+}
+.support-img img{
+    margin-top: 50px;
+}
+.support-serach {
+    position: relative;
+    margin-top: 10px;
+}
+.glyphicon,glyphicon-search {
+    float: right;
+}
+/*#nav{*/
+    /*border: 1px solid #ddd;*/
+    /*background-color:#ddd ;*/
+/*}*/
+.nav-ul li{
+    width: 33%;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    list-style: none;
+    border-right: 1px #ffffff solid;
+    background-color:#ddd ;
+}
+.nav-ul li a{
+    display: block;
+}

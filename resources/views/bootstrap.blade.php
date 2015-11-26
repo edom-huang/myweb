@@ -8,10 +8,10 @@
 	<link rel="stylesheet" href="/css/style.css" type="text/css">
 	<script src="/js/jquery-1.11.3.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
-	<script src="/js/holder.js"></script>
 	<title>bootstap test</title>
 </head>
 <body>
+    {{--导航栏部分--}}
         <nav class="navbar navbar-inverse navbar-fixed-top">
           <div class="container">
             <button class="navbar-toggle" data-toggle="collapse" data-target="#responsive-navbar">
@@ -43,13 +43,8 @@
               </div>
           </div>
         </nav>
-        {{--<div class="container">--}}
-            {{--<p class="alert alert-info">this 4-column-wide div gets wrapped onto a new line as one--}}
-            {{--contiguous unit.this 4-column-wide div gets wrapped onto a new line as one contiguous unit.--}}
-            {{--this 4-column-wide div getswrapped onto a new line as one contiguous unit.--}}
-            {{--this 4-column-wide div gets wrapped onto a new line as one contiguous unit.--}}
-            {{--this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</p>--}}
-        {{--</div>--}}
+
+        {{--图片轮播效果--}}
             <div class="carousel slidev" data-ride="carousel" data-interval="4000" id="slideshow">
                 <ol class="carousel-indicators">
                     <li data-target="#slideshow" data-slide-to="0" class="active"></li>
@@ -94,6 +89,7 @@
                 </a>
             </div>
         </div>
+        {{--点击登录弹出填写模块--}}
         <div class="modal fade" id="login-modal" tabindex="-1" >
             <div class="modal-dialog">
                 <div class="modal-content">
